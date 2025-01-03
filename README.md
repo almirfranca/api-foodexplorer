@@ -1,7 +1,9 @@
-Sobre:
+# Sobre:
+
 Este repositório contém o código-fonte da API back-end desenvolvida como desafio final para o curso da Rocketseat. A API é parte integrante do ecossistema do FoodExplorer, um restaurante inovador que busca proporcionar uma experiência gastronômica única.
 
-Tecnologias
+# Tecnologias:
+
 As seguintes tecnologias foram empregadas na criação deste projeto:
 
 - Node.js: Ambiente de execução que permite os desenvolvedores usem JavaScript para criar aplicativos do lado do servidor.
@@ -19,19 +21,22 @@ As seguintes tecnologias foram empregadas na criação deste projeto:
 - dotenv: Gerenciamento de variáveis de ambiente para configuração flexível
 - pm2: Gerenciador de processos para Node.js, garantindo escalabilidade e estabilidade.
 
+# Como utilizar:
 
-Como utilizar
 Clone o projeto para o local desejado em seu computador.
 
-Executando o Back-end:
-# No BackEnd altere o nome do arquivo .env.example para .env e insira uma porta e um secret no arquivo vazio, como no exemplo abaixo
-  AUTH_SECRET="default"
-  PORT="3333"
+# Executando o Back-end:
+
+No BackEnd altere o nome do arquivo .env.example para .env e insira uma porta e um secret no arquivo vazio, como no exemplo abaixo:
+AUTH_SECRET="default"
+PORT="3333"
 
 # Navegue até o diretório do BackEnd
 
-# Instale as dependências necessárias
-$ npm install
+# Instale as dependências necessárias:
 
-# Agora inicie o servidor do BackEnd
-$ npm run dev
+npm install
+
+# Agora inicie o servidor do BackEnd:
+
+npm run dev
