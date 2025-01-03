@@ -40,3 +40,7 @@ npm install
 # Agora inicie o servidor do BackEnd:
 
 npm run dev
+
+# LINK DO DEPLOY
+
+https://api-foodexplorer-6buc.onrender.com
