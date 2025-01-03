@@ -25,6 +25,10 @@ As seguintes tecnologias foram empregadas na criação deste projeto:
 
 Clone o projeto para o local desejado em seu computador.
 
+# Informação importante:
+
+- Por padrão o usuário criado, a role dele vem como "client", para testar a maioria das funcionalidades tem que mudar a role do usuário para "admin" manualmente no banco de dados.
+
 # Executando o Back-end:
 
 No BackEnd altere o nome do arquivo .env.example para .env e insira uma porta e um secret no arquivo vazio, como no exemplo abaixo:
