@@ -41,9 +41,12 @@ PORT="3333"
 
 npm install
 
-# Agora inicie o servidor do BackEnd:
+# Rode as migrates
 
 npm run migrate
+
+# Agora inicie o servidor do BackEnd:
+
 npm run dev
 
 # LINK DO DEPLOY
