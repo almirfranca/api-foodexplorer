@@ -43,6 +43,7 @@ npm install
 
 # Agora inicie o servidor do BackEnd:
 
+npm run migrate
 npm run dev
 
 # LINK DO DEPLOY
